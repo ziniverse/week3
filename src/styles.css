@@ -1,0 +1,41 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+  text-align: center;
+}
+
+#municipality-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#municipality-table th {
+  background-color: #b7d0ff;
+  font-weight: bold;
+  padding: 12px 0px 12px 6px;
+  border-bottom: 2px solid gray;
+}
+
+#municipality-table td {
+  padding: 6px;
+  border-bottom: 1px solid gray;
+}
+
+#municipality-table th,
+#municipality-table td {
+  text-align: left;
+}
+
+#municipality-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#municipality-table tbody tr:not(:nth-child(even)) {
+  background-color: #ffffff;
+}
+
